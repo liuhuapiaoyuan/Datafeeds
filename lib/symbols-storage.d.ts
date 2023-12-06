@@ -1,4 +1,4 @@
-import { LibrarySymbolInfo, SearchSymbolResultItem, ResolutionString } from '../../../charting_library/datafeed-api';
+import { LibrarySymbolInfo, SearchSymbolResultItem, ResolutionString } from '../datafeed-api';
 import { IRequester } from './irequester';
 export declare class SymbolsStorage {
     private readonly _exchangesList;

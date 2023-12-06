@@ -1,4 +1,4 @@
-import { Bar, HistoryMetadata, LibrarySymbolInfo, PeriodParams } from '../../../charting_library/datafeed-api';
+import { Bar, HistoryMetadata, LibrarySymbolInfo, PeriodParams } from '../datafeed-api';
 import { IRequester } from './irequester';
 export type PeriodParamsWithOptionalCountback = Omit<PeriodParams, 'countBack'> & {
     countBack?: number;

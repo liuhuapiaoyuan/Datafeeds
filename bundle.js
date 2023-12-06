@@ -883,8 +883,7 @@
     }
 
     class UDFCompatibleDatafeed extends UDFCompatibleDatafeedBase {
-        constructor(datafeedURL, updateFrequency = 10 * 1000, limitedServerResponse) {
-            const requester = new Requester();
+        constructor(datafeedURL, updateFrequency = 10 * 1000, limitedServerResponse ,requester = new Requester()) {
             const quotesProvider = new QuotesProvider(datafeedURL, requester);
             super(datafeedURL, quotesProvider, requester, updateFrequency, limitedServerResponse);
         }

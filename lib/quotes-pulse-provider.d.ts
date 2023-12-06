@@ -1,4 +1,4 @@
-import { QuotesCallback } from '../../../charting_library/datafeed-api';
+import { QuotesCallback } from '../datafeed-api';
 import { IQuotesProvider } from './iquotes-provider';
 export declare class QuotesPulseProvider {
     private readonly _quotesProvider;

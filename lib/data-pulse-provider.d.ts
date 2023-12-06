@@ -1,4 +1,4 @@
-import { LibrarySymbolInfo, ResolutionString, SubscribeBarsCallback } from '../../../charting_library/datafeed-api';
+import { LibrarySymbolInfo, ResolutionString, SubscribeBarsCallback } from '../datafeed-api';
 import { IDataPulseProvider, IHistoryProvider } from './provider-interfaces';
 export declare class DataPulseProvider implements IDataPulseProvider {
     private readonly _subscribers;
