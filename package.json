@@ -1,0 +1,16 @@
+{
+  "name": "@suntree/datafeed",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maidou",
+  "license": "ISC",
+  "description": "CL v26.003 (internal id e793d706 @ 2023-10-05T20:27:44.510Z)",
+  "main": "./bundle.js",
+  "types": "./types.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  } 
+}
